@@ -1,0 +1,88 @@
+/* ตั้งค่าพื้นฐานแบบง่ายๆ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+/* ส่วนหัว */
+header {
+    background-color: #4a69bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* เมนู */
+nav {
+    background-color: #1e3799;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* เนื้อหา */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    color: #1e3799;
+    border-bottom: 2px solid #4a69bd;
+    padding-bottom: 5px;
+}
+
+/* จัดขนาดรูป */
+.profile-img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+/* กล่องผลงานแบบ Flexbox พื้นฐาน */
+.box-container {
+    display: flex;
+    gap: 15px;
+}
+
+.box {
+    background-color: #f8f9fa;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    flex: 1;
+}
+
+/* ส่วนท้าย */
+footer {
+    background-color: #1e3799;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
